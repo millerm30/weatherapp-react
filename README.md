@@ -1,3 +1,6 @@
+## 🚀 About Me
+I'm currently a student with [Get Coding](http://www.get-coding.ca) completing Full Stack Development.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
