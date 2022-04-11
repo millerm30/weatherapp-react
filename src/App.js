@@ -42,7 +42,7 @@ function App() {
           </div>
         </div>
 
-        {data.name != undefined && (
+        {data.name !== undefined && (
           <div className="bottom">
             <div className="feels">
               {data.main ? (
@@ -51,11 +51,15 @@ function App() {
               <p>Feels Like</p>
             </div>
             <div className="humidity">
-              {data.main ? <p className="bold">{data.main.humidity} %</p> : null}
+              {data.main ? (
+                <p className="bold">{data.main.humidity} %</p>
+              ) : null}
               <p>Humidity</p>
             </div>
             <div className="wind">
-              {data.wind ? <p className="bold">{data.wind.speed.toFixed()} KM/h</p> : null}
+              {data.wind ? (
+                <p className="bold">{data.wind.speed.toFixed()} KM/h</p>
+              ) : null}
               <p>Wind Speed</p>
             </div>
           </div>
