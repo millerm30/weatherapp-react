@@ -5,8 +5,9 @@ function App() {
 
   const [data,setData] = useState({})
   const [location, setLocation] = useState('')
+  const apiKey = "774150fdf98db0b4a2d36904c6b51a62";
 
-  const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&units=metric&appid={API KEY}`;
+  const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&units=metric&appid=${apiKey}`;
 
   const searchLocation = (event) => {
     if (event.key === 'Enter') {
@@ -39,9 +40,9 @@ function App() {
           </div>
           <div className="description">
             {data.weather ? <p>{data.weather[0].main}</p> : null}
+            {data.weather ? <img src={`http://openweathermap.org/img/w/${data.weather[0].icon}.png`} alt='' /> : null}
           </div>
         </div>
-
         {data.name !== undefined && (
           <div className="bottom">
             <div className="feels">
