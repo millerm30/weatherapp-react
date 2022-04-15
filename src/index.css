@@ -98,9 +98,12 @@ h1 {
 .bold {
   font-weight: 700;
 }
+<<<<<<< HEAD
 
 @media screen and (max-width: 600px) {
   .bottom p {
     font-size: 1.2rem;
   }
 }
+=======
+>>>>>>> 0eec4ab43b2fe0054178075c5f08555d85aa7690
