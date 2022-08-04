@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/weatherapp-react/static/css/main.5b35e3c3.css",
+    "main.js": "/weatherapp-react/static/js/main.16c5e73a.js",
+    "static/media/tropical.jpg": "/weatherapp-react/static/media/tropical.61869e992673a5576932.jpg",
+    "index.html": "/weatherapp-react/index.html",
+    "main.5b35e3c3.css.map": "/weatherapp-react/static/css/main.5b35e3c3.css.map",
+    "main.16c5e73a.js.map": "/weatherapp-react/static/js/main.16c5e73a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5b35e3c3.css",
+    "static/js/main.16c5e73a.js"
+  ]
+}
