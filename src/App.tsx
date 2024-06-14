@@ -22,7 +22,7 @@ function App() {
   const [data,setData] = useState<WeatherData | null>(null);
   const [location, setLocation] = useState<string>("")
   const [error, setError] = useState<string | null>(null)
-  const apiKey: string = "774150fdf98db0b4a2d36904c6b51a62";
+  const apiKey: string = "Your APPI KEY";
 
   const url: string = `https://api.openweathermap.org/data/2.5/weather?q=${location}&units=metric&appid=${apiKey}`;
 
