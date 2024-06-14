@@ -5,14 +5,17 @@
   "private": true,
   "dependencies": {
     "-": "^0.0.1",
-    "@testing-library/jest-dom": "^5.16.4",
-    "@testing-library/react": "^12.1.4",
-    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.14.2",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@typescript-eslint/parser": "^5.62.0",
     "axios": "^1.6.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-scripts": "5.0.0",
     "save-dev": "^0.0.1-security",
+    "typescript": "^5.4.5",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -23,12 +26,13 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
+ "eslintConfig": {
+  "parser": "@typescript-eslint/parser",
+  "extends": [
+    "react-app",
+    "react-app/jest"
+  ]
+},
   "browserslist": {
     "production": [
       ">0.2%",
